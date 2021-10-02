@@ -1,0 +1,8 @@
+##OpenGL GLIB
+
+Texture2D 6 image.bmp
+
+Vertex lic.vert
+Fragment lic.frag
+Program Lic  TexUnit 6  Length <0. 1. 50.>
+QuadXY

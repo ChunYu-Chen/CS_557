@@ -1,0 +1,45 @@
+##OpenGL GLIB
+Perspective 90
+Noise3D 128
+
+
+Translate -5 0 0		# move the scene away from the eye
+
+Vertex stripesnoise.vert
+Fragment stripesnoise.frag
+Program StripesNoise  DeltaScale <0. 0. 5.>  A <0 1. 10>  P <0. .25 1.>  Tol <0. .1 .5>
+
+
+# sphere:
+
+Color [1 0 0]
+Translate -1 0 0
+Sphere 1
+
+# cone:
+
+Color [1 1 0]
+Translate 1.5 0 0
+TransformBegin
+	Cone 0.5 1.
+TransformEnd
+
+# torus:
+
+Color [0 1 0]
+Translate 2 0 0
+TransformBegin
+	Torus .2 1.
+TransformEnd
+
+# teapot:
+
+Color [1 .5 0]
+Translate 4 0 0
+TransformBegin
+	Teapot
+TransformEnd
+
+Color [1 0 1]
+Translate 3 0 0
+Cylinder .5 2.

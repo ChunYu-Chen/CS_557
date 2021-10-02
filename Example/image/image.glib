@@ -1,0 +1,21 @@
+##OpenGL GLIB
+Perspective 70
+
+Texture2D 5 image.bmp
+Texture2D 6 before.bmp
+Texture2D 7 after.bmp
+
+Vertex image.vert
+Fragment image.frag
+Program Image  \
+            T <0. 0. 5.>				\
+            MagTol   <0. 1. 1.>           	\
+            Quantize <5. 20. 20.>          	\
+		ResS 512   ResT 512			\
+		ImageUnit 5  BeforeUnit 6  AfterUnit 7
+
+
+QuadXY .2 5.
+
+MessageBox Push the Scene Backwards using TransZ
+MessageBox Edit the define in the frag file for different effects

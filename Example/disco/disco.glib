@@ -1,0 +1,36 @@
+##OpenGL GLIB
+
+Perspective 90
+
+Vertex disco.vert
+Fragment disco.frag
+Program disco Num <5. 15. 50.>
+
+Color [1 0 0]
+PushMatrix
+Rotate 0  0 1 0
+Translate 3 0 0
+Sphere 1
+PopMatrix
+
+PushMatrix
+Rotate 90  0 1 0
+Color [1 0.5 0]
+Translate 3 0 0
+Rotate -90  1 0 0
+Teapot
+PopMatrix
+
+PushMatrix
+Rotate 180  0 1 0
+Color [0 1 0]
+Translate 3 0 0
+Torus  .2  1.
+PopMatrix
+
+PushMatrix
+Rotate 270  0 1 0
+Color [0 1 1]
+Translate 3 0 0
+Box
+PopMatrix

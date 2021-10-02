@@ -1,0 +1,6 @@
+
+0(1) : error C5060: out can't be used with non-varying X
+0(1) : error C5060: out can't be used with non-varying Y
+0(2) : error C5060: out can't be used with non-varying MCposition
+0(3) : error C5060: out can't be used with non-varying LightIntensity
+

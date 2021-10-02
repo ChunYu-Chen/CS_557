@@ -1,0 +1,4 @@
+
+0(78) : error C1503: undefined variable "reflectcolor"
+0(78) : error C1503: undefined variable "refractcolor"
+

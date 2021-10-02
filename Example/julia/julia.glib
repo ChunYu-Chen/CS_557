@@ -1,0 +1,15 @@
+##OpenGL GLIB
+Perspective 70
+
+Vertex julia.vert
+Fragment julia.frag
+Program Julia   LightPosition [10. 5. 0.]			\
+		MaxIterations 20				\
+		Zoom <0. 1.7 10.>					\
+		Xcenter <-1. 0. 1.>  Ycenter <-1. 0. 1.> 	\
+		Creal <-1. -0.6 1.>    Cimag <-1. -0.6 1.>		\
+		InnerColor {0. 0. 1.}				\
+		OuterColor1 {1. 1. 0.}  OuterColor2 {1. 0. 0.}
+
+
+Teapot

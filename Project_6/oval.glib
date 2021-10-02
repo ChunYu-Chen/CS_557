@@ -1,0 +1,27 @@
+##OpenGL GLIB
+
+Perspective 90
+Noise3D 128
+LookAt 0 0 2  0 0 0  0 1 0
+
+Vertex   oval.vert
+Fragment oval.frag
+Program  Oval				\
+	uAd <.001 .1 .5>		\
+	uBd <.001 .1 .5>		\
+	uNoiseAmp <0. 0. 1.>    \
+	uNoiseFreq <0. 1. 10.>  \
+	uTol <0. 0. 1.>		    \
+	uAlpha <0. 1. 1.>		\
+	Color {0.7 0.8 0.1}			\
+	LightX <-20.  5. 20.0>		\
+	LightY <-20. 10. 20.0>		\
+	LightZ <-20. 10. 20.0>		\
+	Center <-5. .1 5>           \
+	TimePosition <0. 0. 10.>	\
+	Period <.01 .01 .5>			\
+	Amp <0. .01 .2>			
+
+Color 1. .5 0
+Obj catH.obj
+//Sphere 1 50 50

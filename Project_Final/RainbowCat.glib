@@ -1,0 +1,28 @@
+##OpenGL GLIB
+
+Perspective 90
+Noise3D 128
+LookAt 0 0 2  0 0 0  0 1 0
+Timer 5.
+
+Vertex   RainbowCat.vert
+Fragment RainbowCat.frag
+Program  RainbowCat			\
+	uAd <.001 .1 .5>		\
+	uBd <.001 .1 .5>		\
+	uNoiseAmp <0. 0. 1.>    \
+	uNoiseFreq <0. 1. 10.>  \
+	uTol <0. 0. 1.>		    \
+	uAlpha <0. 1. 1.>		\
+	Speed <1. 1. 5.>        \
+	Center <-5. .1 5>          \
+	TimePosition <0. 0. 10.>   \
+	Period <.01 .01 .5>		   \
+	Amp <0. .01 .2>	           \
+	LightX <-20.  5. 20.0>		\
+	LightY <-20. 10. 20.0>		\
+	LightZ <-20. 10. 20.0>		\ 
+
+//Color 1. .5 0
+Obj catH.obj
+//Sphere 1 50 50

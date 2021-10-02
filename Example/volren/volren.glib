@@ -1,0 +1,11 @@
+##OpenGL GLIB
+Perspective 90
+
+Vertex volren.vert
+Fragment volren.frag
+Program VolRen  Alpha <0. 1. 1.>  Min <0. 0. 100>  Max < 0. 100. 100.>
+
+QuadBox 50
+
+MessageBox Move the Scene Back with the Global Scene Transformation TransZ
+

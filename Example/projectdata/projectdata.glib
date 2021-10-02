@@ -1,0 +1,10 @@
+##OpenGL GLIB
+Perspective 90
+
+Vertex projectdata.vert
+Fragment projectdata.frag
+Program ProjectData  Scale <0.1 1. 5.>  Alpha <0. 1. 1.>
+
+Teapot
+
+MessageBox Move the Scene Back with the Global Scene Transformation TransZ

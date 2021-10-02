@@ -1,0 +1,12 @@
+##OpenGL GLIB
+Perspective 90
+
+PointSizeMode 1
+
+Vertex points.vert
+Fragment points.frag
+Program Points  Min <0. 0. 100>  Max < 0. 100. 100.>  PointScale <0. 0. 50.>  AlphaScale <0. 0. 10.>
+
+PointCloud 50 50 50
+
+MessageBox Move the Scene Back with the Global Scene Transformation TransZ

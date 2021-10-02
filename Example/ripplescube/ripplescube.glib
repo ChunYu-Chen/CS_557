@@ -1,0 +1,40 @@
+##OpenGL GLIB
+
+Perspective 70
+
+Vertex texture.vert
+Fragment texture.frag
+Program Texture  TexUnit 6
+
+Texture2D  6  nvposx.bmp
+QuadYZ 5. 5. 10 10
+
+Texture2D  6  nvnegx.bmp
+QuadYZ -5. 5. 10 10
+
+
+Texture2D  6  nvposy.bmp
+QuadXZ 5. 5. 10 10
+
+Texture2D  6  nvnegy.bmp
+QuadXZ -5. 5. 10 10
+
+
+Texture2D  6  nvposz.bmp
+QuadXY 5. 5. 10 10
+
+Texture2D  6  nvnegz.bmp
+QuadXY -5. 5. 10 10
+
+
+CubeMap 6 nvposx.bmp nvnegx.bmp  nvposy.bmp nvnegy.bmp   nvposz.bmp nvnegz.bmp
+
+Vertex ripplescube.vert
+Fragment ripplescube.frag
+Program RipplesCube			\
+	TexUnit 6				\
+	Time <0. 0. 10.>			\
+	Pd <.2 1. 1.5>			\
+	Amp0 <0. .02 .05>	
+
+QuadXZ  -2.  10.

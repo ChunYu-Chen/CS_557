@@ -1,0 +1,15 @@
+##OpenGL GLIB
+Perspective 90
+Verbose
+
+texture2d 7 texture.bmp
+
+Vertex texture.vert
+Fragment texturemult.frag
+Program Texture  TexUnit  7
+
+
+Teapot
+
+# QuadXY
+

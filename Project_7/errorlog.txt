@@ -1,0 +1,6 @@
+
+0(55) : error C1503: undefined variable "ECposition"
+0(57) : error C1503: undefined variable "ECposition"
+0(60) : error C1503: undefined variable "ECposition"
+0(61) : error C1503: undefined variable "ECposition"
+

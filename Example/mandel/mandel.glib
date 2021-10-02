@@ -1,0 +1,14 @@
+##OpenGL GLIB
+Perspective 70
+
+Vertex mandel.vert
+Fragment mandel.frag
+Program Mandel  LightPosition [10. 5. 0.]			\
+		MaxIterations 20				\
+		Zoom <0. 2. 10.>					\
+		Xcenter <-1. 0. 1.>  Ycenter <-1. 0. 1.> 	\
+		InnerColor {0. 0. 1.}				\
+		OuterColor1 {1. 1. 0.}  OuterColor2 {1. 0. 0.}
+
+
+Teapot

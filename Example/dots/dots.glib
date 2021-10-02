@@ -1,0 +1,16 @@
+##OpenGL GLIB
+
+Perspective 90
+
+Translate -2 0 0
+
+Vertex dots.vert
+Fragment dots.frag
+Program dots Diam <0 0.1 1.0>  Tol <0. 0. .005>  DotColor {1. 1. 1.}
+
+Color [1 0 0]
+Sphere 1
+
+Color [1 0.5 0]
+Translate 4 0 0
+Teapot

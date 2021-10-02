@@ -1,0 +1,20 @@
+##OpenGL GLIB
+Perspective 70
+
+GeometryInput  gl_triangles
+GeometryOutput gl_triangle_strip
+Vertex   spheresubd.vert
+Geometry spheresubd.geom
+Fragment spheresubd.frag
+Program SphereSubd  FpLevel <0. 0. 10.>  Radius <.5 1. 5.>  Color { 0. 1. 0. }
+
+
+Triangles [ 0. 0.  1.]  [ 1. 0.  0.]  [0.  1. 0.]
+Triangles [ 1. 0.  0.]  [ 0. 0. -1.]  [0.  1. 0.]
+Triangles [ 0. 0. -1.]  [-1. 0.  0.]  [0.  1. 0.]
+Triangles [-1. 0.  0.]  [ 0. 0.  1.]  [0.  1. 0.]
+
+Triangles [ 0. 0.  1.]  [ 1. 0.  0.]  [0. -1. 0.]
+Triangles [ 1. 0.  0.]  [ 0. 0. -1.]  [0. -1. 0.]
+Triangles [ 0. 0. -1.]  [-1. 0.  0.]  [0. -1. 0.]
+Triangles [-1. 0.  0.]  [ 0. 0.  1.]  [0. -1. 0.]

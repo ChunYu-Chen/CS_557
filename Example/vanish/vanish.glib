@@ -1,0 +1,16 @@
+##OpenGL GLIB
+Perspective 70
+
+Texture2D 5 image.bmp
+
+Vertex vanish.vert
+Fragment vanish.frag
+Program Vanish  	RedThreshold <0. 1. 1.>	 	\
+			GreenThreshold <0. 1. 1.>  	\
+			BlueThreshold <0. 1. 1.>	\
+			ImageUnit 5
+
+
+Teapot
+#Sphere 2.
+#QuadXY .2 5.

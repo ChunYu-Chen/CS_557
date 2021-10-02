@@ -1,0 +1,4 @@
+
+0(48) : error C1503: undefined variable "A"
+0(49) : error C1503: undefined variable "A"
+

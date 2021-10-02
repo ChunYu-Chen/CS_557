@@ -1,0 +1,26 @@
+
+0(110) : error C1038: declaration of "stp0" conflicts with previous declaration at 0(51)
+0(111) : error C1038: declaration of "st0p" conflicts with previous declaration at 0(52)
+0(112) : error C1038: declaration of "stpp" conflicts with previous declaration at 0(53)
+0(113) : error C1038: declaration of "stpm" conflicts with previous declaration at 0(54)
+0(114) : error C1038: declaration of "i00" conflicts with previous declaration at 0(55)
+0(114) : warning C7011: implicit cast from "float" to "vec3"
+0(115) : error C1038: declaration of "im1m1" conflicts with previous declaration at 0(56)
+0(115) : warning C7011: implicit cast from "float" to "vec3"
+0(116) : error C1038: declaration of "ip1p1" conflicts with previous declaration at 0(57)
+0(116) : warning C7011: implicit cast from "float" to "vec3"
+0(117) : error C1038: declaration of "im1p1" conflicts with previous declaration at 0(58)
+0(117) : warning C7011: implicit cast from "float" to "vec3"
+0(118) : error C1038: declaration of "ip1m1" conflicts with previous declaration at 0(59)
+0(118) : warning C7011: implicit cast from "float" to "vec3"
+0(119) : error C1038: declaration of "im10" conflicts with previous declaration at 0(60)
+0(119) : warning C7011: implicit cast from "float" to "vec3"
+0(120) : error C1038: declaration of "ip10" conflicts with previous declaration at 0(61)
+0(120) : warning C7011: implicit cast from "float" to "vec3"
+0(121) : error C1038: declaration of "i0m1" conflicts with previous declaration at 0(62)
+0(121) : warning C7011: implicit cast from "float" to "vec3"
+0(122) : error C1038: declaration of "i0p1" conflicts with previous declaration at 0(63)
+0(122) : warning C7011: implicit cast from "float" to "vec3"
+0(123) : warning C7623: implicit narrowing of type from "vec3" to "float"
+0(124) : warning C7623: implicit narrowing of type from "vec3" to "float"
+

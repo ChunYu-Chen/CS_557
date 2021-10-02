@@ -1,0 +1,42 @@
+##OpenGL GLIB
+
+Perspective 70
+
+Vertex texture.vert
+Fragment texture.frag
+Program Texture  TexUnit 6
+
+Texture2D  6  nvposx.bmp
+QuadYZ 5. 5. 10 10
+
+Texture2D  6  nvnegx.bmp
+QuadYZ -5. 5. 10 10
+
+
+Texture2D  6  nvposy.bmp
+QuadXZ 5. 5. 10 10
+
+Texture2D  6  nvnegy.bmp
+QuadXZ -5. 5. 10 10
+
+
+Texture2D  6  nvposz.bmp
+QuadXY 5. 5. 10 10
+
+Texture2D  6  nvnegz.bmp
+QuadXY -5. 5. 10 10
+
+
+CubeMap 6 nvposx.bmp nvnegx.bmp  nvposy.bmp nvnegy.bmp   nvposz.bmp nvnegz.bmp
+
+Vertex brickcube.vert
+Fragment brickcube.frag
+Program BrickCube			\
+	TexUnit 6			\
+	Brickx <.5 1. 2.>		\
+	Groutx <.05 .1 .2>		\
+	Brickz <.5 1. 2.>		\
+	Groutz <.05 .1 .2>		\
+	Mixer <0. 0. 1.>
+
+QuadXZ  -2.  10.

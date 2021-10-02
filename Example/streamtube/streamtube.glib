@@ -1,0 +1,14 @@
+##OpenGL GLIB
+
+Texture2D 6 image.bmp
+
+Vertex streamtube.vert
+Fragment streamtube.frag
+# Program StreamTube  K <0. 10. 25.>  N <0. 2. 10.>  M <1. 1. 5.>
+Program StreamTube  K <0. 10. 25.>  N <0. 2. 10.>  Peristaltic <0. 0. 2.>  Speed <1. 1. 5.>
+
+Translate 0. 0. -4.
+Color 1. .7 0.
+Xarrow 200
+#Sphere 1. 500 500
+#Teapot
